@@ -1,5 +1,6 @@
 import React from 'react';
 import { Calendar, MapPin, Briefcase, GraduationCap } from 'lucide-react';
+import me from '../../assets/its_me.jpg' ;
 
 const AboutSection: React.FC = () => {
   return (
@@ -10,7 +11,7 @@ const AboutSection: React.FC = () => {
             <div className="aspect-[4/5] rounded-2xl overflow-hidden bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900/20 dark:to-purple-900/20 p-4 shadow-lg border border-white/20 dark:border-gray-800">
               <div className="w-full h-full rounded-xl overflow-hidden">
                 <img 
-                  src="https://images.pexels.com/photos/3184317/pexels-photo-3184317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                  src={me} 
                   alt="Shreyansh Jain working at desk" 
                   className="w-full h-full object-cover"
                 />
@@ -29,8 +30,8 @@ const AboutSection: React.FC = () => {
             
             <div className="space-y-6 text-gray-600 dark:text-gray-300">
               <p className="text-lg">
-                Hello! I'm Shreyansh Jain, a passionate full stack developer and designer with over 2 years of experience 
-                creating scalable, data driven, functional, and user-centered digital experiences.
+                Hello! I'm Shreyansh Jain, a passionate full stack developer with over 2 years of experience 
+                in developement and IT support roles, creating scalable, data driven, functional, and user-centered digital experiences.
               </p>
               
               <p>
@@ -72,7 +73,7 @@ const AboutSection: React.FC = () => {
                   <Briefcase size={20} />
                 </div>
                 <div>
-                  <h3 className="font-medium text-gray-900 dark:text-white">Current Role</h3>
+                  <h3 className="font-medium text-gray-900 dark:text-white">Role</h3>
                   <p className="text-gray-600 dark:text-gray-400">Full Stack Developer</p>
                 </div>
               </div>

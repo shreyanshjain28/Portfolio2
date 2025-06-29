@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <h2 className="text-xl font-bold text-gray-900 dark:text-white">
-              Portfolio<span className="text-blue-600 dark:text-blue-400">.</span>
+             
             </h2>
             <p className="mt-2 text-sm text-gray-600 dark:text-gray-400 max-w-md">
               Crafting digital experiences with passion and precision. 
@@ -19,11 +19,11 @@ const Footer: React.FC = () => {
           </div>
           
           <div className="flex space-x-4">
-            <a href="#" className="p-2 text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">
+            <a href="https://github.com/shreyanshjain28" className="p-2 text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">
               <Github size={20} />
               <span className="sr-only">GitHub</span>
             </a>
-            <a href="#" className="p-2 text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">
+            <a href="https://www.linkedin.com/in/shreyansh-jain-86a005251/" className="p-2 text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400 transition-colors">
               <Linkedin size={20} />
               <span className="sr-only">LinkedIn</span>
             </a>

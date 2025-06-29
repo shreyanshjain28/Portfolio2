@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ProjectCard from '../UI/ProjectCard';
+import prompthub from '../../assets/prompthub.png';
 
 // Project data
 const projects = [
@@ -10,16 +11,16 @@ const projects = [
     image: 'https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     categories: ['web', 'fullstack', 'backend'],
     technologies: ['React', 'Node.js', 'MySQL','Chart.js'],
-    link: '#'
+    link: 'https://github.com/shreyanshjain28/Visitor_tracking_system/tree/master'
   },
   {
     id: 2,
     title: 'Prompt Hub',
     description: ' A full-stack AI prompt-sharing application for sharing Prompts.',
-    image: 'https://images.pexels.com/photos/6956503/pexels-photo-6956503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    categories: ['web', 'fullstack', 'Ui/ux'],
+    image: prompthub,
+    categories: ['web', 'fullstack', 'Ui/U x'],
     technologies: ['Next.js', 'Mongo DB', 'NextAuth'],
-    link: '#'
+    link: 'https://prompt-hub-azure.vercel.app/'
   },
   {
     id: 3,
@@ -28,16 +29,16 @@ const projects = [
     image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     categories: ['web', 'frontend', 'api'],
     technologies: ['JavaScript', 'CSS', 'WeatherAPI'],
-    link: '#'
+    link: 'https://github.com/shreyanshjain28/Weather-app'
   },
   {
     id: 4,
     title: 'Courtyard Resturant Website',
     description: 'A website for restaurant for Booking table and online order for university project.',
-    image: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://torontolife.mblycdn.com/tl/resized/2023/12/w1280/toronto-restaurants-andore-queen-west-wine-bar-cave-scaled.jpg',
     categories: ['web', 'fullstack', 'backend'],
     technologies: ['HTML', 'PHP', 'PostgreSQL'],
-    link: '#'
+    link: 'https://github.com/shreyanshjain28/courtyard'
   },
   {
     id: 5,
@@ -46,16 +47,16 @@ const projects = [
     image: 'https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     categories: ['web', 'frontend'],
     technologies: ['React', 'JavaScript', 'Bolt'],
-    link: '#'
+    link: 'https://github.com/shreyanshjain28/Portfolio2'
   },
   {
     id: 6,
     title: 'Home Hub - Figma Prototype',
     description: 'A prototype/UI for real estate management application using Figma.',
-    image: 'https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    categories: ['web', 'frontend', 'ui/ux'],
+    image: 'https://logos-world.net/wp-content/uploads/2024/10/Figma-Logo-New.png',
+    categories: ['web', 'frontend', 'Ui/Ux'],
     technologies: ['Figma','Agile',],
-    link: '#'
+    link: 'https://www.figma.com/design/L7vyFTc1J9pb3gzzBa75O0/home-hub?node-id=0-1'
   }
 ];
 

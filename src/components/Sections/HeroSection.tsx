@@ -1,7 +1,8 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import Button from '../UI/Button';
-import its_me from '../../assets/its_me.jpg'
+import Scene from '../3D/Scene';
+
 
 const HeroSection: React.FC = () => {
   const scrollToProjects = () => {
@@ -32,7 +33,7 @@ const HeroSection: React.FC = () => {
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white">
                 <span className="block">Shreyansh Jain</span>
                 <span className="block mt-2">
-                  Creative <span className="text-blue-600 dark:text-blue-400">Developer</span>
+                Full Stack<span className="text-blue-600 dark:text-blue-400"> Developer</span>
                 </span>
               </h1>
               <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-xl">
@@ -62,22 +63,19 @@ const HeroSection: React.FC = () => {
             </div>
 
             <div className="flex items-center space-x-4 text-sm text-gray-600 dark:text-gray-400">
+              <div className="flex items-center">
+                <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
+                <span>Available for work</span>
+              </div>
               <div>
-                <span>Based in Toronto, Canada</span>
+                <span>Based in Toronto, ON, CA</span>
               </div>
             </div>
           </div>
 
-          <div className="lg:col-span-2 relative">
-            <div className="aspect-square rounded-2xl bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900/20 dark:to-purple-900/20 p-4 shadow-lg border border-white/20 dark:border-gray-800">
-              <div className="w-full h-full rounded-xl overflow-hidden">
-                <img 
-                  src={its_me} 
-                  alt="Shreyansh Jain" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
+          <div className="lg:col-span-2 relative h-[400px]">
+            
+            <Scene />
             
             {/* Decorative elements */}
             <div className="absolute -top-4 -right-4 w-24 h-24 bg-blue-100 dark:bg-blue-900/30 rounded-lg -z-10"></div>
